@@ -11,4 +11,4 @@ These Godot addons were created for various projects and reasons. They are provi
 - **Cutscena**
   - A very basic global cutscene system for my games. Provides a `Cutscene` class for storing cutscenes, a `CutsceneEvent` for storing actions and events within those cutscenes, a `CutsceneInstance` for managing running instances of cutscenes, and makes a `CutsceneManager` autoload for starting and stopping playback of cutscenes.
 - **Scratch .sb3 Importer**
-  - Adds an importer for the `.sb3` file type used by Scratch projects. While it doesn't transpile code yet, it can import project sprites, sounds, and cosutmes as a scene! Useful for porting Scratch projects to Godot.
+  - Adds an importer for the `.sb3` file type used by Scratch projects. While it doesn't transpile code yet, it can import project sprites, sounds, and costumes as a scene! Useful for porting Scratch projects to Godot.
