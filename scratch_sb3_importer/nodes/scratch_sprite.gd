@@ -6,7 +6,7 @@ class_name ScratchSprite
 ## @experimental: This is VERY prone to bugs and inacuracies to Scratch. I've tried my best.
 
 ## The shader responsible for replicating Scratch's graphic effects.
-const SCRATCH_SPRITE_SHADER = preload("res://addons/scratch_project_importer/nodes/scratch_sprite_shader.tres")
+const SCRATCH_SPRITE_SHADER = preload("scratch_sprite_shader.tres")
 
 ## Keeps track of the project root, this should always be a [ScratchProjectRoot], useful for storing global vars.
 @onready var root: ScratchProjectRoot = $".."
