@@ -7,7 +7,7 @@ These Godot addons were created for various projects and reasons. They are provi
 - Download any of the addons you need from here and place them into the addons folder of your Godot project. Don't forget to enable them in the project tab!
 # Addon list
 - **Big Int**
-  - Provides a `BigInt` type for storing infinitley large integers while keeping precision. Useful for incremental games.
+  - Provides a `BigInt` type for storing, comparing, and doing math on infinitley large integers while keeping precision. Useful for incremental games.
 - **Cutscena**
   - A very basic global cutscene system for my games. Provides a `Cutscene` class for storing cutscenes, a `CutsceneEvent` for storing actions and events within those cutscenes, a `CutsceneInstance` for managing running instances of cutscenes, and makes a `CutsceneManager` autoload for starting and stopping playback of cutscenes.
 - **Scratch .sb3 Importer**
