@@ -12,4 +12,4 @@ func play(caller: Node, cutscene: Cutscene) -> CutsceneInstance:
 		func():
 			active_cutscene_instances.erase(instance)
 	)
-	return 
+	return instance
