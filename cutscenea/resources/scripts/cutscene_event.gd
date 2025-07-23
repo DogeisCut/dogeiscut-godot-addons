@@ -8,5 +8,5 @@ func _run(_cutscene_manager: CutsceneInstance, _cutscene_player: Node) -> void:
 	finished.emit()
 
 func do_event(cutscene_instance: CutsceneInstance, cutscene_player: Node) -> CutsceneEvent:
-	_run.bind(cutscene_player).bind(cutscene_instance).call_deferred()
+	_run.call_deferred(cutscene_instance, cutscene_player)
 	return self
